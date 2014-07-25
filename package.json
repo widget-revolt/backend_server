@@ -1,0 +1,28 @@
+{
+  "name": "wr-backend-prod",
+  "version": "0.0.1-57",
+  "dependencies": {
+    "express": "*",
+    "winston": "0.7.x",
+    
+	"string":"1.7.x",
+	"pg": "2.9.x",
+	"async": "0.9.x",
+	
+	"bunyan": "*",
+	"posix-getopt": "*",
+	"assert-plus": "*",
+  "newrelic": "*"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.2.x"
+  },
+  "subdomain": "widgetrevolt-timewinder-prod",
+  "domains": [
+    "wr-backend-prod.widgetrevolt.com"
+  ],
+  "scripts": {
+    "start": "main.js"
+  }
+}
